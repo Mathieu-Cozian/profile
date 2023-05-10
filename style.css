@@ -1,0 +1,86 @@
+h1{
+  color: #C8553D;
+  font-family: Comme, bold;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+
+body{
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+p{
+  color:blueviolet;
+  font-family: Comme, Thin;
+
+}
+
+.logo{
+  size-adjust: large;
+}
+
+a:hover{
+  background-color: blue;
+}
+
+a{
+  text-decoration: none;
+  color: #F28F3B;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.img-circle{
+  border-radius: 50%;
+  size-adjust: 200%;
+}
+
+.card{
+  border-radius: 10%;
+  background-color:beige;
+  box-shadow:#C8553D 10px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  size: 200px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#description{
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 420px;
+  }
+}
